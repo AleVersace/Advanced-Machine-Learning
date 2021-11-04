@@ -1,0 +1,14 @@
+Model, Pretrain, Freeze, Batch Size, LR, Weight Decay, Scheduler, Decay, Dec Epochs, Momentum, Epochs, Test Acc %
+AlexNet, no, none, 64, 1e-3, 5e-5, StepLR, 0.1, 20, 0.9, 30, 26%
+,
+AlexNet, yes, none, 64, 1e-3, 5e-5, StepLR, 0.1, 20, 0.9, 10, 85.24%
+AlexNet, yes, none, 64, 1e-3, 5e-5, StepLR, 0.1, 20, 0.9, 10, 84.93%
+,
+AlexNet, yes, fc only, 64, 1e-3, 5e-5, StepLR, 0.1, 20, 0.9, 10, 85.31%
+AlexNet, yes, fc only, 64, 1e-3, 5e-5, StepLR, 0.1, 20, 0.9, 10, 85.24%
+AlexNet, yes, fc only, 64, 1e-3, 5e-5, StepLR, 0.1, 7, 0.9, 10, 85.14%
+AlexNet, yes, fc only, 64, 1e-3, 5e-5, StepLR, 0.1, 10, 0.9, 10, 85.48%
+AlexNet, yes, conv only, 64, 1e-3, 5e-5, StepLR, 0.1, 20, 0.9, 10, 42.17%
+
+ResNet18, yes, none, 16, 1e-3, 5e-5, StepLR, 0.1, 20, 0.9, 10, 92.84%
+ResNet18, yes, none, 16, 1e-3, 5e-5, StepLR, 0.1, 20, 0.9, 10, 93.26%
