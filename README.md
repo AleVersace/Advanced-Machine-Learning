@@ -15,6 +15,7 @@ Main Topic | Content | Dataset
 CNN Tutorial Pytorch | [CIFAR10 Pytorch Tutorial](./CIFAR10_Classifier.ipynb) | CIFAR10
 CNN with dataset class from scratch | [Flowers-102 from scratch](./Flowers102/) | Flowers-102  
 CNN + Transfer Learning | [Caltech101 on AlexNet/ResNet](./Caltech101/) | Caltech101
+LSTM + convLTSM | [GTEA61 on LSTM](./LSTM_spatial_info.ipynb) | GTEA61
 
 ## Getting Started
 
